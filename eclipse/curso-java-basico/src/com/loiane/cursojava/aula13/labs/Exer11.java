@@ -15,7 +15,7 @@ public class Exer11 {
 		System.out.println("Informe um numero com fracionado.");
 		double num3 = scan.nextDouble();
 		
-		double produtoDobro = (num1 * 2) * (num2 / 2);
+		int produtoDobro = (num1 * 2) * (num2 / 2);
 		double somaTriplo = (num1 * 3) + num3;
 		double elevaCubo = Math.pow(num3, 3);
 		

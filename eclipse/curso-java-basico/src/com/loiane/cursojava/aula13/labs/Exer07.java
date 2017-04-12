@@ -13,7 +13,7 @@ public class Exer07 {
 		double area = Math.pow(lado, 2);
 		
 		System.out.println("A área deste quadrado é: " + area);
-		System.out.println("O dobro desta áres é: " + area * 2);
+		System.out.println("O dobro desta áres é: " + (area * 2));
 
 	}
 

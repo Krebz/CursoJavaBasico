@@ -8,9 +8,9 @@ public class Exer02 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Didite um numero:");
+		System.out.println("Didite um numero inteiro:");
 		int numero = scan.nextInt();
-		System.out.println("O número informado foi " + numero +".");
+		System.out.println("O número informado foi: " + numero +".");
 
 	}
 

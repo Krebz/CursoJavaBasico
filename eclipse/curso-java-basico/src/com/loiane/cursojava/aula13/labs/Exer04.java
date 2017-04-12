@@ -14,7 +14,7 @@ public class Exer04 {
 		double nota3 = scan.nextDouble();
 		double nota4 = scan.nextDouble();
 		
-		double media = ((nota1 + nota2 + nota3 + nota4) / 4);
+		double media = (nota1 + nota2 + nota3 + nota4) / 4;
 		
 		System.out.println("Sua média é: " + media);
 
