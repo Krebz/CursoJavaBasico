@@ -21,7 +21,7 @@ public class Exer01 {
 			System.out.println("Maior Número: " + num2);
 			
 		}
-
+scan.close();
 	}
 
 }

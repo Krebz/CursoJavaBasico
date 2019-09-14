@@ -2,8 +2,6 @@ package com.loiane.cursojava.aula15.labs;
 
 import java.util.Scanner;
 
-import javax.print.DocFlavor.INPUT_STREAM;
-
 public class Exer03 {
 
 	public static void main(String[] args) {
