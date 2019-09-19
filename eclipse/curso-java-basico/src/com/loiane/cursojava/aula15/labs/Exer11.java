@@ -8,7 +8,7 @@ public class Exer11 {
 		
 		Scanner scan = new Scanner(System.in);
         
-        System.out.println("Digite o salário:");
+        System.out.println("Digite o salï¿½rio:");
         double salario = scan.nextDouble();
         int percentual = 0;
         
@@ -25,11 +25,13 @@ public class Exer11 {
         double valorAumento = (salario / 100) * percentual;
         double salarioAjutado = salario + valorAumento;
         
-        System.out.println("Relatório de Ajuste Salirial");
+        System.out.println("Relatï¿½rio de Ajuste Salirial");
         System.out.println("Salario anterior: " + salario);
         System.out.println("Percentual de aumento aplicado: " + percentual);
         System.out.println("Valor do aumento: " + valorAumento);
         System.out.println("Salario ajustado: " + salarioAjutado);
+        
+        scan.close();
 
 	}
 

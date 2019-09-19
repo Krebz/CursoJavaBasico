@@ -7,7 +7,7 @@ public class Exer10 {
 		
 		Scanner scan = new Scanner(System.in);
         
-        System.out.println("Digite o turno que você estuda:");
+        System.out.println("Digite o turno que vocï¿½ estuda:");
         System.out.println("DICA! M-matutino ou V-Vespertino ou N- Noturno");
         String turno = scan.next();
         
@@ -19,10 +19,11 @@ public class Exer10 {
         	case "V": System.out.println("Boa Tarde!"); break;
         	case "n":
         	case "N": System.out.println("Boa Noite!"); break;
-        	default: System.out.println("Valor inválido");
+        	default: System.out.println("Valor invï¿½lido");
         
         }
 
+        scan.close();
 	}
 
 }

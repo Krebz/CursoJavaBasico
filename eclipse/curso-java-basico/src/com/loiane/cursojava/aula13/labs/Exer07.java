@@ -12,9 +12,10 @@ public class Exer07 {
 		double lado = scan.nextDouble();
 		double area = Math.pow(lado, 2);
 		
-		System.out.println("A área deste quadrado é: " + area);
-		System.out.println("O dobro desta áres é: " + (area * 2));
-
+		System.out.println("A ï¿½rea deste quadrado ï¿½: " + area);
+		System.out.println("O dobro desta ï¿½res ï¿½: " + (area * 2));
+		scan.close();
 	}
+		
 
 }

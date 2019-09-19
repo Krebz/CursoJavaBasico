@@ -31,5 +31,7 @@ public class Exer15 {
             
             System.out.println(proximo);
         }
+        
+        scan.close();
     }
 }

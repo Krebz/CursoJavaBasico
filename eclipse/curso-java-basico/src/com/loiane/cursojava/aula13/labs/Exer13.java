@@ -8,10 +8,10 @@ public class Exer13 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Quanto você ganha por horas?");
+		System.out.println("Quanto vocï¿½ ganha por horas?");
 		double ganhoHora = scan.nextDouble();
 		
-		System.out.println("Quantas horas você trabalha em um mês?");
+		System.out.println("Quantas horas vocï¿½ trabalha em um mï¿½s?");
 		double horasTrabalhada = scan.nextDouble();
 		
 		double salarioBruto = ganhoHora * horasTrabalhada;
@@ -21,12 +21,14 @@ public class Exer13 {
 		double totalDescontos = (inss + sindicato + impostoDeRenda);
 		double salarioLiquido = salarioBruto - totalDescontos;
 		
-		System.out.println("\n\nSalário Bruto: ..........   R$ " + salarioBruto);
+		System.out.println("\n\nSalï¿½rio Bruto: ..........   R$ " + salarioBruto);
 		System.out.println("\nIRRF 11%: ............... - R$ " + impostoDeRenda);
 		System.out.println("INSS  8%: ............... - R$ " + inss);
-		System.out.println("Contribuição Sindical 5%: - R$ " + sindicato);
+		System.out.println("Contribuiï¿½ï¿½o Sindical 5%: - R$ " + sindicato);
 		System.out.println("Total dos descontos: .... - R$ " + totalDescontos);
-		System.out.println("\nSalário Liquido: ........   R$ " + salarioLiquido);
+		System.out.println("\nSalï¿½rio Liquido: ........   R$ " + salarioLiquido);
+		
+		scan.close();
 		
 	}
 

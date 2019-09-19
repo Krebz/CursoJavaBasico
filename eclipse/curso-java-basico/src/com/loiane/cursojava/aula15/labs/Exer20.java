@@ -8,19 +8,19 @@ public class Exer20 {
 		
 		Scanner scan = new Scanner(System.in);
         
-        System.out.println("Telefonou para a vítima?");
+        System.out.println("Telefonou para a vï¿½tima?");
         String resp1 = scan.next();
         
         System.out.println("Esteve no local do crime?");
         String resp2 = scan.next();
         
-        System.out.println("Mora perto da vítima?");
+        System.out.println("Mora perto da vï¿½tima?");
         String resp3 = scan.next();
         
-        System.out.println("Já trabalhou com a vítima?");
+        System.out.println("Jï¿½ trabalhou com a vï¿½tima?");
         String resp4 = scan.next();
         
-        System.out.println("Devia para a vítima?");
+        System.out.println("Devia para a vï¿½tima?");
         String resp5 = scan.next();
         
         int cont = 0;
@@ -48,13 +48,13 @@ public class Exer20 {
         if (cont == 2){
             System.out.println("Suspeita");
         } else if (cont == 3 || cont == 4){
-            System.out.println("Cúmplice");
+            System.out.println("Cï¿½mplice");
         } else if (cont == 5){
             System.out.println("Assassino");
         } else if (cont == 0){
             System.out.println("Inocente");
         } 
-
+        scan.close();
 	}
 
 }

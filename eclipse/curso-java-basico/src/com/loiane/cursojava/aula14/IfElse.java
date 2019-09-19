@@ -13,9 +13,9 @@ public class IfElse {
 		int idade = scan.nextInt();
 		
 		if (idade >= 18){
-			System.out.println("É maior de idade.");
+			System.out.println("ï¿½ maior de idade.");
 		} else {
-			System.out.println("Não é maior de idade.");
+			System.out.println("Nï¿½o ï¿½ maior de idade.");
 		}*/
 		
 		//barato <= 10
@@ -23,19 +23,19 @@ public class IfElse {
 		//15 <= valor 17 - pesquisar mais
 		//>= 17 - muito caro
 		
-		System.out.println("Entre com o preço do item");
+		System.out.println("Entre com o preï¿½o do item");
 		double valor = scan.nextDouble();
 		
 		if (valor <= 10){
-			System.out.println("Está barato, pode comprar");
+			System.out.println("Estï¿½ barato, pode comprar");
 		} else if (valor > 10 && valor < 15){
-			System.out.println("Você pode pedir um desconto");
+			System.out.println("Vocï¿½ pode pedir um desconto");
 		} else if (valor >=15  && valor < 17){
 			System.out.println("Pode pesquisar mais");
 		} else { // valor >= 17
 			System.out.println("Muito caro");
 		}
-
+		scan.close();
 	}
 
 }

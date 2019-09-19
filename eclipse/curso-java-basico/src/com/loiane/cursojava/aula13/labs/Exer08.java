@@ -8,15 +8,16 @@ public class Exer08 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Quanto você ganha por horas?");
+		System.out.println("Quanto vocï¿½ ganha por horas?");
 		double ganhoHora = scan.nextDouble();
 		
-		System.out.println("Quantas horas você trabalha em um mês?");
+		System.out.println("Quantas horas vocï¿½ trabalha em um mï¿½s?");
 		double horasTrabalhada = scan.nextDouble();
 		
 		double salario = ganhoHora * horasTrabalhada;
-		System.out.println("Seu salário no mês é de:" + salario);
+		System.out.println("Seu salï¿½rio no mï¿½s ï¿½ de:" + salario);
 
+		scan.close();
 	}
 
 }

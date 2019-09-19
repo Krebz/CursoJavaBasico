@@ -19,14 +19,14 @@ public class Exer04 {
 				letra.equalsIgnoreCase("u")
 		){
 			
-			System.out.println("Esta letra é uma vogal");
+			System.out.println("Esta letra ï¿½ uma vogal");
 			
 		} else {
 			
-			System.out.println("Esta letra é uma consoante");
+			System.out.println("Esta letra ï¿½ uma consoante");
 			
 		}
-
+		scan.close();
 	}
 
 }

@@ -22,16 +22,17 @@ Scanner scan = new Scanner(System.in);
                 ((lado2 + lado3) > lado1)){
             
             if (lado1 == lado2 && lado1 == lado3 && lado2 == lado3){
-                System.out.println("Triângulo Equilátero");
+                System.out.println("Triï¿½ngulo Equilï¿½tero");
             } else if (lado1 != lado2 && lado1 != lado3 && lado3 != lado2){
-                System.out.println("Triângulo Escaleno");
+                System.out.println("Triï¿½ngulo Escaleno");
             } else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3){
-                System.out.println("Triângulo Isóceles");
+                System.out.println("Triï¿½ngulo Isï¿½celes");
             }
             
         } else {
-            System.out.println("não forma um triângulo");
+            System.out.println("nï¿½o forma um triï¿½ngulo");
         }
+        scan.close();
 
 	}
 

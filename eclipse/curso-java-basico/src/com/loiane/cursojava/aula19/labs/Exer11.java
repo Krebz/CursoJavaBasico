@@ -29,6 +29,8 @@ public class Exer11 {
         System.out.println();
         
         System.out.println("Qtd números pares: " + qtdPares);
+        
+        scan.close();
 		
 	}
 

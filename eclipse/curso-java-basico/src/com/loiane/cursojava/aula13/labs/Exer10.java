@@ -12,8 +12,9 @@ public class Exer10 {
 		double grauC = scan.nextDouble();
 		double grauF = (grauC * 1.8) + 32;
 		
-		System.out.println("A temperatura em Farenheit é: " + grauF);
+		System.out.println("A temperatura em Farenheit ï¿½: " + grauF);
 
+		scan.close();
 	}
 
 }

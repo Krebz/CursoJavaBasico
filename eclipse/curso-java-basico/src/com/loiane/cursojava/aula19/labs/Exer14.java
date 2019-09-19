@@ -16,12 +16,17 @@ public class Exer14 {
 		}
 		
         int soma = 0;
+        int impar = 0;
+        
         double media = 0;
         for (int i=0; i<vetorA.length; i++){
-            soma += vetorA[i];
+        	if(vetorA[i] % 2 !=0) {
+        		soma += vetorA[i];
+        		impar++;
+        	}
         }
         
-        media = soma / vetorA.length;
+        media = soma / impar;
         
         System.out.print("Vetor A = ");
         for (int i=0; i<vetorA.length; i++){
@@ -31,6 +36,7 @@ public class Exer14 {
         
         System.out.println("Média: " + media);
         
+        scan.close();
 	}
 
 }

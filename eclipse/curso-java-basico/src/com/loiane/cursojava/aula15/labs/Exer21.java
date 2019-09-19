@@ -11,7 +11,7 @@ public class Exer21 {
         System.out.println("Entre com a qtd de litros vendidos");
         double litros = scan.nextDouble();
         
-        System.out.println("Entre com o tipode combustível");
+        System.out.println("Entre com o tipode combustï¿½vel");
         String tipo = scan.next();
         
         double precoGas = 2.5;
@@ -46,6 +46,7 @@ public class Exer21 {
         double precoAPagar = total - totalDesc;
         
         System.out.println("Valor a ser pago: " + precoAPagar);
+        scan.close();
 
 	}
 

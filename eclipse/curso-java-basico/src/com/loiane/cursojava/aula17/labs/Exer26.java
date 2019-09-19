@@ -23,5 +23,6 @@ public class Exer26 {
         
         System.out.print(" 1 = " + fatorial);
        
+        scan.close();
     }
 }

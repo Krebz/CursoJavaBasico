@@ -10,8 +10,8 @@ public class Exer02 {
 		
 		System.out.println("Didite um numero inteiro:");
 		int numero = scan.nextInt();
-		System.out.println("O número informado foi: " + numero +".");
-
+		System.out.println("O nï¿½mero informado foi: " + numero +".");
+		scan.close();
 	}
 
 }

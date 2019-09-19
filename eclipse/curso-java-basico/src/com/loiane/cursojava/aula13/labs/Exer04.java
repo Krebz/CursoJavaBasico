@@ -16,8 +16,10 @@ public class Exer04 {
 		
 		double media = (nota1 + nota2 + nota3 + nota4) / 4;
 		
-		System.out.println("Sua média é: " + media);
+		System.out.println("Sua mï¿½dia ï¿½: " + media);
+		
+		scan.close();
 
 	}
-
+	
 }

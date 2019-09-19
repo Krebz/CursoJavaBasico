@@ -18,14 +18,15 @@ public class Exer01 {
 
             if (nota >=0 && nota <= 10){
                 notaValida = true;
-                System.out.println("Você digitou: " + nota);
+                System.out.println("Vocï¿½ digitou: " + nota);
             } else {
                 //notaValida = false;
-                System.out.println("Nota inválida, digite novamente.");
+                System.out.println("Nota invï¿½lida, digite novamente.");
             }
             
         } while (!notaValida);
-
+        
+        scan.close();
 	}
 
 }

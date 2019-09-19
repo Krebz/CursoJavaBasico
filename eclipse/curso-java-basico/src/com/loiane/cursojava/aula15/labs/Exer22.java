@@ -11,7 +11,7 @@ public class Exer22 {
         System.out.println("Entre com a quantidade (kg) de morango:");
         double qtdMorango = scan.nextDouble();
         
-        System.out.println("Entre com a quantidade (kg) de maça:");
+        System.out.println("Entre com a quantidade (kg) de maï¿½a:");
         double qtdMaca = scan.nextDouble();
         
         double precoKgMorango = 0;
@@ -28,8 +28,8 @@ public class Exer22 {
             precoKgMaca = 1.5;
         }
         
-        double precoTotalMorango = qtdMorango * precoKgMorango;
-        double precoTotalMaca = qtdMaca * precoKgMaca;
+        //double precoTotalMorango = qtdMorango * precoKgMorango;
+        //double precoTotalMaca = qtdMaca * precoKgMaca;
         
         double precoParcial = precoKgMorango + precoKgMaca;
         double precoTotal = precoParcial;
@@ -40,6 +40,7 @@ public class Exer22 {
         
         System.out.println("Preco total = " + precoTotal);
 
+        scan.close();
 	}
 
 }

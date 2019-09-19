@@ -13,12 +13,12 @@ public class Exer07 {
 		int maior = 0;
 		
 		System.out.println("Vamos solicitar 3 numeros.");
-		System.out.println("\nDigite o primeiro número:");
+		System.out.println("\nDigite o primeiro nï¿½mero:");
 		num = scan.nextInt();
 		menor = num;
 		maior = num;
 		
-		System.out.println("Digite o segundo número:");
+		System.out.println("Digite o segundo nï¿½mero:");
 		num = scan.nextInt();
 		if(num < menor){
 			menor = num;
@@ -27,7 +27,7 @@ public class Exer07 {
 			maior = num;
 		}
 		
-		System.out.println("Digite o terceiro número:");
+		System.out.println("Digite o terceiro nï¿½mero:");
 		num = scan.nextInt();
 		if(num < menor){
 			menor = num;
@@ -36,7 +36,8 @@ public class Exer07 {
 			maior = num;
 		}
 		
-		System.out.println(menor + " é o menor numero e " + maior + " é o maior.");
+		System.out.println(menor + " ï¿½ o menor numero e " + maior + " ï¿½ o maior.");
+		scan.close();
 	}
 
 }

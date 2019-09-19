@@ -8,13 +8,13 @@ public class Exer08 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-        System.out.println("Entre com primeiro preço:");
+        System.out.println("Entre com primeiro preï¿½o:");
         double preco1 = scan.nextDouble();
         
-        System.out.println("Entre com segundo preço:");
+        System.out.println("Entre com segundo preï¿½o:");
         double preco2 = scan.nextDouble();
         
-        System.out.println("Entre com terceiro preço:");
+        System.out.println("Entre com terceiro preï¿½o:");
         double preco3 = scan.nextDouble();
         
         if(preco1 <= preco2 && preco1 <= preco3){
@@ -24,8 +24,10 @@ public class Exer08 {
         } else if (preco3 <= preco1 && preco3 <= preco2){
             System.out.println("Compre o produto 3");
         }else{
-        	System.out.println("Trolando o código :)");
+        	System.out.println("Trolando o cï¿½digo :)");
         }
+        
+        scan.close();
 
 	}
 

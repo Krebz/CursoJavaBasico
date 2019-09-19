@@ -12,7 +12,7 @@ Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         
         if (a == 0){
-            System.out.println("Não é equação de segundo grau");
+            System.out.println("Nï¿½o ï¿½ equaï¿½ï¿½o de segundo grau");
         } else {
             
             System.out.println("Entre com o valor de b:");
@@ -35,7 +35,7 @@ Scanner scan = new Scanner(System.in);
                 System.out.println("x2 = " + x2);
             }
         }
-
+        scan.close();
 	}
 
 }

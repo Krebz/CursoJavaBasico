@@ -36,5 +36,7 @@ public class Exer21 {
         double media = soma / numTurmas;
         
         System.out.println("Média: " + media);
+        
+        scan.close();
     }
 }

@@ -21,5 +21,7 @@ public class Exer11 {
         }
         
         System.out.println("Soma: " + soma);
+        
+        scan.close();
     }
 }

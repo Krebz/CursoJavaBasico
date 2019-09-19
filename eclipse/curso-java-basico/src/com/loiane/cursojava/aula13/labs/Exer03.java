@@ -8,13 +8,14 @@ public class Exer03 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Informe dois número:");
+		System.out.println("Informe dois nï¿½mero:");
 		int num1 = scan.nextInt();		
 		int num2 = scan.nextInt();
 		int resultado = num1 + num2;
 		
-		System.out.println("A soma dos número " + num1 + " e " + num2 + " é igua a " + resultado);
+		System.out.println("A soma dos nï¿½mero " + num1 + " e " + num2 + " ï¿½ igua a " + resultado);
 
+		scan.close();
 	}
 
 }

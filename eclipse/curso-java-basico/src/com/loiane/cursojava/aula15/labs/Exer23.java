@@ -53,7 +53,7 @@ public class Exer23 {
         double total = qtd * precoKg;
         System.out.println(qtd + "kg * " + precoKg + " = " + total);
         
-        System.out.println("Compra no cartão? digite 1 para sim:");
+        System.out.println("Compra no cartï¿½o? digite 1 para sim:");
         int cartao = scan.nextInt();
         
         if (cartao == 1){
@@ -63,6 +63,8 @@ public class Exer23 {
         } else {
             System.out.println("Valor a pagar: " + total);
         }
+        
+        scan.close();
 
 	}
 

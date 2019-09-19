@@ -20,5 +20,7 @@ public class Exer35 {
         }
         
         System.out.println("\nSoma = " + soma);
+        
+        scan.close();
     }
 }

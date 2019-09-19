@@ -15,7 +15,7 @@ public class Exer05 {
 		
 		if(media == 10){
 			
-			System.out.println("Aprovado com Distinção");
+			System.out.println("Aprovado com Distinï¿½ï¿½o");
 			
 		} else if(media > 7){
 			
@@ -26,6 +26,7 @@ public class Exer05 {
 			System.out.println("Reprovado");
 			
 		}
+		scan.close();
 
 	}
 

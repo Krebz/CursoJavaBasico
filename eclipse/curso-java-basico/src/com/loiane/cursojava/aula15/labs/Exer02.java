@@ -8,19 +8,19 @@ public class Exer02 {
 	
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Informe um número inteiro:");
+		System.out.println("Informe um nï¿½mero inteiro:");
 		int num = scan.nextInt();
 		
 		if(num >= 0){
 			
-			System.out.println("O número " + num + " informado é positivo");
+			System.out.println("O nï¿½mero " + num + " informado ï¿½ positivo");
 			
 		} else {
 			
-			System.out.println("O número " + num + " informado é negativo");
+			System.out.println("O nï¿½mero " + num + " informado ï¿½ negativo");
 			
 		}
-
+		scan.close();
 	}
 
 }

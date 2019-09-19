@@ -8,13 +8,13 @@ public class Exer09 {
 		
         Scanner scan = new Scanner(System.in);
         
-        System.out.println("Indorme o primeiro número:");
+        System.out.println("Indorme o primeiro nï¿½mero:");
         int num1 = scan.nextInt();
         
-        System.out.println("Indorme o segundo número:");
+        System.out.println("Indorme o segundo nï¿½mero:");
         int num2 = scan.nextInt();
         
-        System.out.println("Indorme o terceiro número:");
+        System.out.println("Indorme o terceiro nï¿½mero:");
         int num3 = scan.nextInt();
         
         // num1 < num2 < num3
@@ -48,7 +48,7 @@ public class Exer09 {
             System.out.println(num1 + " - " + num2 + " - " + num3);
             
         }
-
+        scan.close();
 	}
 
 }

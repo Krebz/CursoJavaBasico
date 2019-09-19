@@ -17,7 +17,9 @@ public class Exer14 {
 		double tempoDownload = tamanhoArquivo / velocidadeInternet;
 		//tempoDownload = tempoDownload / 60;
 		
-		System.out.println("Seu arquivo será baixado em: " + tempoDownload + " mim.");
+		System.out.println("Seu arquivo serï¿½ baixado em: " + tempoDownload + " mim.");
+		
+		scan.close();
 	}
 
 }

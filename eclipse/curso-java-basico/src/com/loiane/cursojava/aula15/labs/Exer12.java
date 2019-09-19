@@ -11,7 +11,7 @@ Scanner scan = new Scanner(System.in);
         System.out.println("Informe com o valor/hora:");
         double valorHora = scan.nextDouble();
         
-        System.out.println("Informe as horas trabalhadas no mês:");
+        System.out.println("Informe as horas trabalhadas no mï¿½s:");
         double qtdHoras = scan.nextDouble();
         
         double salarioBruto = valorHora * qtdHoras;
@@ -33,12 +33,14 @@ Scanner scan = new Scanner(System.in);
         double totalDescontos = ir + inss;
         double salarioLiquido = salarioBruto - totalDescontos;
         
-        System.out.println("Salário Bruto: (" + valorHora + " * " + qtdHoras + "): R$ " + salarioBruto);
+        System.out.println("Salï¿½rio Bruto: (" + valorHora + " * " + qtdHoras + "): R$ " + salarioBruto);
         System.out.println("(-) IR (" + percentualIR + "%)                 : R$ " + ir);
         System.out.println("(-) INSS ( 10%)              : R$ " + inss);
         System.out.println("FGTS (11%)                   : R$ " + fgts);
         System.out.println("Total de descontos           : R$ " + totalDescontos);
-        System.out.println("Salário Liquido              : R$ " + salarioLiquido);
+        System.out.println("Salï¿½rio Liquido              : R$ " + salarioLiquido);
+        
+        scan.close();
 	}
 
 }

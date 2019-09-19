@@ -59,5 +59,7 @@ public class Exer25 {
             }
            
         }while(!sair);
+        
+        scan.close();
     }
 }

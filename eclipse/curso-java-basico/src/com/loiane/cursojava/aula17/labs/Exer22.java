@@ -25,5 +25,7 @@ public class Exer22 {
         double media = soma / cds;
         
         System.out.println("Média gasta com cada CD: " + media);
+        
+        scan.close();
     }
 }

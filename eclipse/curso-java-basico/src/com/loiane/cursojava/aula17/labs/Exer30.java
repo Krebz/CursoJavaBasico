@@ -37,5 +37,7 @@ public class Exer30 {
         for (int i=numInicio; i<=numFinal; i++){
             System.out.println(num + " x " + i + " = " + (num*i));
         }
+        
+        scan.close();
     }
 }

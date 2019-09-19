@@ -8,7 +8,7 @@ public class Exer11 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("informe dois números inteiros.");
+		System.out.println("informe dois nï¿½meros inteiros.");
 		int num1 = scan.nextInt();
 		int num2 = scan.nextInt();
 		
@@ -19,10 +19,12 @@ public class Exer11 {
 		double somaTriplo = (num1 * 3) + num3;
 		double elevaCubo = Math.pow(num3, 3);
 		
-		System.out.println("Você digitou os seguntes números: " + num1 + " | " + num2 + " | " + num3);
+		System.out.println("Vocï¿½ digitou os seguntes nï¿½meros: " + num1 + " | " + num2 + " | " + num3);
 		System.out.println("a. O produto do dobro do primeiro com a metade do seguntos. " + produtoDobro);
 		System.out.println("b. a soma do triplo do primeiro com o terceiro. " + somaTriplo);
 		System.out.println("c. o terceiro elevado ao cubo. " + elevaCubo);
+		
+		scan.close();
 	}
 
 }

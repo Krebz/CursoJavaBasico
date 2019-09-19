@@ -13,11 +13,12 @@ public class Exer17 {
         int ano = scan.nextInt();
         
         if ((ano % 400 == 0) || (ano % 4 == 0 && ano % 100 != 0)){
-            System.out.println("é bissexto");
+            System.out.println("ï¿½ bissexto");
         } else {
-            System.out.println("não é bissexto");
+            System.out.println("nï¿½o ï¿½ bissexto");
         }
 
+        scan.close();
 	}
 
 }

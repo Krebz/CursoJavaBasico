@@ -24,5 +24,6 @@ public class Exer13 {
         }
         
         System.out.println("Resultado: " + resultado);
+        scan.close();
     }
 }

@@ -1,7 +1,5 @@
 package com.loiane.cursojava.aula17.labs;
 
-import java.util.Scanner;
-
 public class Exer06 {
     
     public static void main(String[] args){

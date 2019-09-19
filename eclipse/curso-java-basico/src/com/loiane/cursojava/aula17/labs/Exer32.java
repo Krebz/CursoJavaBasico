@@ -54,5 +54,7 @@ public class Exer32 {
         }while(naoTerminar);
         
         System.out.println(output);
+        
+        scan.close();
     }
 }

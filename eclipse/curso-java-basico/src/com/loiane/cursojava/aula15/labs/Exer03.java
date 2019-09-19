@@ -24,7 +24,7 @@ public class Exer03 {
 			System.out.println("Sexo Invalido");
 			
 		}
-		
+		scan.close();
 
 	}
 

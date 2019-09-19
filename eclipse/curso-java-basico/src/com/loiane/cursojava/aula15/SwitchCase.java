@@ -52,6 +52,8 @@ public class SwitchCase {
 		case 7: System.out.println("Fim de semana"); break;
 		default: System.out.println("Não é uma dia da semana válido");
 		}
+		
+		scan.close();
 	}
 
 }

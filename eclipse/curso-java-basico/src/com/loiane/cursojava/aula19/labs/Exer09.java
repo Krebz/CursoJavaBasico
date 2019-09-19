@@ -43,6 +43,7 @@ public class Exer09 {
 			System.out.print(vetorC[i] + " ");
 		}
 
+		scan.close();
 	}
 
 }

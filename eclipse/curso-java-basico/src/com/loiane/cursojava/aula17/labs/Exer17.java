@@ -20,5 +20,7 @@ public class Exer17 {
         }
         
         System.out.println("Resultado: " + fatorial);
+        scan.close();
     }
+    
 }

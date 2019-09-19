@@ -25,5 +25,6 @@ public class Exer28 {
         if (primo){
             System.out.println("É número primo");
         }
+        scan.close();
     }
 }

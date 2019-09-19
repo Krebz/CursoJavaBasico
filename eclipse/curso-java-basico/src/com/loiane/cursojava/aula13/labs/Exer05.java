@@ -15,7 +15,7 @@ public class Exer05 {
 		System.out.println(metro + "m equivale a " + centimetro + "cm");
 		
 		
-
+		scan.close();
 	}
 
 }

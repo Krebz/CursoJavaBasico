@@ -30,7 +30,7 @@ public class Exer04 {
 		for(int i=0 ; i<vetorB.length; i++) {
 			System.out.print(vetorB[i] + " ");
 		}
-
+		scan.close();
 	}
 
 }

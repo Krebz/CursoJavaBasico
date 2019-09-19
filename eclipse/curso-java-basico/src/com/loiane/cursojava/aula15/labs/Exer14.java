@@ -31,7 +31,7 @@ Scanner scan = new Scanner(System.in);
         
         System.out.println("Nota 1: " + nota1);
         System.out.println("Nota 2: " + nota2);
-        System.out.println("Média: " + media);
+        System.out.println("Mï¿½dia: " + media);
         System.out.println("Conceito: " + aproveitamento);
         
         switch(aproveitamento){
@@ -42,6 +42,7 @@ Scanner scan = new Scanner(System.in);
             case "E": System.out.println("REPROVADO"); break;  
         }
 
+        scan.close();
 	}
 
 }

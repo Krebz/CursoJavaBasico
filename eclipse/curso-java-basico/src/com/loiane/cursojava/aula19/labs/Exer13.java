@@ -30,6 +30,7 @@ public class Exer13 {
         
         System.out.println("Soma: " + soma);
 
+        scan.close();
 	}
 
 }

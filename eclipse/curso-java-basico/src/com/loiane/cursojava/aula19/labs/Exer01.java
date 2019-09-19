@@ -31,6 +31,7 @@ public class Exer01 {
 			System.out.print(vetorB[i] + " ");
 		}
 
+		scan.close();
 
 	}
 

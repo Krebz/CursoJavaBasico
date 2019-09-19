@@ -8,13 +8,13 @@ public class Exer06 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Qual o raio da circuferência?");
+		System.out.println("Qual o raio da circuferï¿½ncia?");
 		double raio = scan.nextDouble();
 		double area = Math.PI * Math.pow(raio, 2);
 		
-		System.out.println("A áres deste cículo é: " + area);
+		System.out.println("A ï¿½res deste cï¿½culo ï¿½: " + area);
 		
-
+		scan.close();
 	}
 
 }

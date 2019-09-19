@@ -8,15 +8,15 @@ public class Exer18 {
 		
 		Scanner scan = new Scanner(System.in);
         
-        System.out.println("Entre com um número");
+        System.out.println("Entre com um nï¿½mero");
         int num = scan.nextInt();
         
         if (num % 2 == 0){
             System.out.println("par");
         } else {
-            System.out.println("ímpar");
+            System.out.println("ï¿½mpar");
         }
-
+        scan.close();
 	}
 
 }

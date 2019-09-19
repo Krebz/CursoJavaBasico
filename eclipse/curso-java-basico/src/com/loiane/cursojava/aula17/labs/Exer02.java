@@ -14,7 +14,7 @@ public class Exer02 {
         
         do {
             
-            System.out.println("Entre com o nome do usuário:");
+            System.out.println("Entre com o nome do usuï¿½rio:");
             nomeUser = scan.next();
             
             System.out.println("Entre com a senha:");
@@ -22,13 +22,14 @@ public class Exer02 {
             
             if (nomeUser.equalsIgnoreCase(senha)){
                 //infoValidas = false;
-                System.out.println("Senha igual a usuário, digite novamente.");
+                System.out.println("Senha igual a usuï¿½rio, digite novamente.");
             } else {
                 infoValidas = true;
-                System.out.println("Senha e usuários válidos.");
+                System.out.println("Senha e usuï¿½rios vï¿½lidos.");
             }
             
         } while (!infoValidas);
         
+        scan.close();
     }
 }

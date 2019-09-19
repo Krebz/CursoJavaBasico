@@ -29,5 +29,7 @@ public class Exer29 {
                 System.out.println(i);
             }
         }
+        
+        scan.close();
     }
 }

@@ -24,5 +24,7 @@ public class Exer08 {
         
         System.out.println("Soma: " + soma);
         System.out.println("Média: " + media);
+        
+        scan.close();
     }
 }

@@ -23,7 +23,7 @@ public class Exer13 {
 	        	break;
 	        	
 	        case 3:
-	        	System.out.println("Terça:");
+	        	System.out.println("Terï¿½a:");
 	        	break;
 	        	
 	        case 4:
@@ -39,13 +39,13 @@ public class Exer13 {
 	        	break;
 	        	
 	        case 7:
-	        	System.out.println("Sábado:");
+	        	System.out.println("Sï¿½bado:");
 	        	break;
 	        	
         	default:
         		System.out.println("Dia da semana invalido:");
         }
-
+        scan.close();
 	}
 
 }

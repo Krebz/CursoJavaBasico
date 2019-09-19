@@ -12,8 +12,9 @@ public class Exer09 {
 		double grauF = scan.nextDouble();
 		double grauC = (5 * (grauF - 32) / 9);
 		
-		System.out.println("A temperatura em grau Celsius é: " + grauC);
+		System.out.println("A temperatura em grau Celsius ï¿½: " + grauC);
 
+		scan.close();
 	}
 
 }

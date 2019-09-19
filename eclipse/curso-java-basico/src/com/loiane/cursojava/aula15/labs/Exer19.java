@@ -8,13 +8,13 @@ public class Exer19 {
 		
 		Scanner scan = new Scanner(System.in);
         
-        System.out.println("Entre com o primeiro número:");
+        System.out.println("Entre com o primeiro nï¿½mero:");
         int num1 = scan.nextInt();
         
-        System.out.println("Entre com o segundo número:");
+        System.out.println("Entre com o segundo nï¿½mero:");
         int num2 = scan.nextInt();
         
-        System.out.println("Entre com a operação (+ - / *): ");
+        System.out.println("Entre com a operaï¿½ï¿½o (+ - / *): ");
         String operacao = scan.next();
         
         double resultado = 0;
@@ -26,7 +26,7 @@ public class Exer19 {
             case "*": resultado = num1 * num2; break;
             case "/": resultado = num1 / num2; break;
             default: 
-                System.out.println("Operação inválida"); 
+                System.out.println("Operaï¿½ï¿½o invï¿½lida"); 
                 valida = false;
         }
         
@@ -43,9 +43,10 @@ public class Exer19 {
             if (resultado % 2 == 0){
                 System.out.println("resultado par");
             }else {
-                System.out.println("resultado ímpar");
+                System.out.println("resultado ï¿½mpar");
             }
         }
+        scan.close();
 
 	}
 

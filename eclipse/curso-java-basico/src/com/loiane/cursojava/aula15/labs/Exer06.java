@@ -8,18 +8,19 @@ public class Exer06 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Digite três números inteiros:");
+		System.out.println("Digite trï¿½s nï¿½meros inteiros:");
 		int num1 = scan.nextInt();
 		int num2 = scan.nextInt();
 		int num3 = scan.nextInt();
 		
 		if(num1 >= num2 && num1 >= num3){
-			System.out.println(num1 + " é o maior Número");
+			System.out.println(num1 + " ï¿½ o maior Nï¿½mero");
 		} else if(num2 >= num1 && num2 >= num3){
-			System.out.println(num2 + " é o maior Número");
+			System.out.println(num2 + " ï¿½ o maior Nï¿½mero");
 		}else {
-			System.out.println(num3 + " é o maior Número");
+			System.out.println(num3 + " ï¿½ o maior Nï¿½mero");
 		}
+		scan.close();
 	}
 
 }
